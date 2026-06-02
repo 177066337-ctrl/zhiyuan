@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+app/node_modules/
+
+# Build outputs
+dist/
+app/dist/
+app/dist/dist-server.log
+
+# Logs and temp files
+*.log
+*.tmp
+vite-dev.log
+app/vite-dev.log
+
+# TypeScript build cache
+*.tsbuildinfo
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Raw materials should stay local unless reviewed for size/copyright/privacy
+raw_data/
+# 原始资料：暂不公开上传
+/*.pdf
+/*.doc
+/*.docx
+/*.xls
+/*.xlsx
+/*.ppt
+/*.pptx
+/tmp_*.html
