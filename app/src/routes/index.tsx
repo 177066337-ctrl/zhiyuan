@@ -7,6 +7,7 @@ import { MajorsPage } from "../pages/MajorsPage";
 import { RecommendPlaceholderPage } from "../pages/RecommendPlaceholderPage";
 import { SchoolDetailPage } from "../pages/SchoolDetailPage";
 import { SchoolsPage } from "../pages/SchoolsPage";
+import { ScoreLookupPage } from "../pages/ScoreLookupPage";
 import { WishlistPage } from "../pages/WishlistPage";
 
 export const router = createHashRouter([
@@ -19,6 +20,7 @@ export const router = createHashRouter([
       { path: "schools/:schoolId", element: <SchoolDetailPage /> },
       { path: "majors", element: <MajorsPage /> },
       { path: "majors/:majorId", element: <MajorDetailPage /> },
+      { path: "score-lookup", element: <ScoreLookupPage /> },
       { path: "wishlist", element: <WishlistPage /> },
       { path: "recommend", element: <RecommendPlaceholderPage /> },
       { path: "about", element: <AboutPage /> },

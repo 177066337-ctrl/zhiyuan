@@ -7,11 +7,33 @@ dist/
 app/dist/
 app/dist/dist-server.log
 
+# Data work and extraction artifacts
+data_work/
+data_work/**
+national_admissions_raw/
+national_admissions_normalized/
+national_rank_tables_raw/
+national_rank_tables_normalized/
+remaining_admissions_raw/
+remaining_admissions_normalized/
+remaining_rank_tables_raw/
+remaining_rank_tables_normalized/
+plans_raw/
+plans_normalized/
+subject_requirements_raw/
+subject_requirements_normalized/
+backfill_admissions_raw/
+backfill_admissions_normalized/
+backfill_rank_tables_raw/
+backfill_rank_tables_normalized/
+national_validation_reports/
+
 # Logs and temp files
 *.log
 *.tmp
 vite-dev.log
 app/vite-dev.log
+/tmp_*.html
 
 # TypeScript build cache
 *.tsbuildinfo
@@ -24,7 +46,10 @@ Thumbs.db
 
 # Raw materials should stay local unless reviewed for size/copyright/privacy
 raw_data/
-# 原始资料：暂不公开上传
+高考志Y系列资料/
+高考志Y系列资料/**
+
+# Root-level source files should not be published by default
 /*.pdf
 /*.doc
 /*.docx
@@ -32,4 +57,3 @@ raw_data/
 /*.xlsx
 /*.ppt
 /*.pptx
-/tmp_*.html

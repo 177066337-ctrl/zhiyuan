@@ -1,0 +1,842 @@
+{
+  "generated_at": "2026-06-06T21:53:14",
+  "notice": "全国候选数据试验版覆盖状态，仅反映当前前端可选数据，不代表完整或最终质量。",
+  "rows": [
+    {
+      "province": "云南",
+      "year": 2024,
+      "subject_type": "文科",
+      "status": "score_only",
+      "label": "仅分数参考",
+      "notice": "该数据集缺少可靠位次支撑，只能查询历史最低分参考。",
+      "batches": [
+        "本科一批",
+        "本科二批",
+        "高职专科批"
+      ],
+      "public_batches": [
+        "本科一批",
+        "本科二批",
+        "高职专科批"
+      ]
+    },
+    {
+      "province": "云南",
+      "year": 2024,
+      "subject_type": "理科",
+      "status": "score_only",
+      "label": "仅分数参考",
+      "notice": "该数据集缺少可靠位次支撑，只能查询历史最低分参考。",
+      "batches": [
+        "本科一批",
+        "本科二批",
+        "高职专科批"
+      ],
+      "public_batches": [
+        "本科一批",
+        "本科二批",
+        "高职专科批"
+      ]
+    },
+    {
+      "province": "内蒙古",
+      "year": 2024,
+      "subject_type": "文科",
+      "status": "open_candidate",
+      "label": "未人工复核",
+      "notice": "该数据集尚未人工复核，仅供历史数据参考。",
+      "batches": [
+        "本科一批",
+        "本科二批"
+      ],
+      "public_batches": [
+        "本科一批",
+        "本科二批"
+      ]
+    },
+    {
+      "province": "内蒙古",
+      "year": 2024,
+      "subject_type": "理科",
+      "status": "open_candidate",
+      "label": "未人工复核",
+      "notice": "该数据集尚未人工复核，仅供历史数据参考。",
+      "batches": [
+        "本科一批",
+        "本科二批"
+      ],
+      "public_batches": [
+        "本科一批",
+        "本科二批"
+      ]
+    },
+    {
+      "province": "宁夏",
+      "year": 2024,
+      "subject_type": "文科",
+      "status": "score_only",
+      "label": "仅分数参考",
+      "notice": "该数据集缺少可靠位次支撑，只能查询历史最低分参考。",
+      "batches": [
+        "专科"
+      ],
+      "public_batches": [
+        "专科"
+      ]
+    },
+    {
+      "province": "山东",
+      "year": 2024,
+      "subject_type": "体育类",
+      "status": "score_only",
+      "label": "仅分数参考",
+      "notice": "该数据集缺少可靠位次支撑，只能查询历史最低分参考。",
+      "batches": [
+        ""
+      ],
+      "public_batches": [
+        ""
+      ]
+    },
+    {
+      "province": "山东",
+      "year": 2025,
+      "subject_type": "体育类",
+      "status": "score_only",
+      "label": "仅分数参考",
+      "notice": "该数据集缺少可靠位次支撑，只能查询历史最低分参考。",
+      "batches": [
+        ""
+      ],
+      "public_batches": [
+        ""
+      ]
+    },
+    {
+      "province": "山西",
+      "year": 2023,
+      "subject_type": "文科",
+      "status": "score_only",
+      "label": "仅分数参考",
+      "notice": "该数据集缺少可靠位次支撑，只能查询历史最低分参考。",
+      "batches": [
+        ""
+      ],
+      "public_batches": [
+        ""
+      ]
+    },
+    {
+      "province": "山西",
+      "year": 2023,
+      "subject_type": "理科",
+      "status": "score_only",
+      "label": "仅分数参考",
+      "notice": "该数据集缺少可靠位次支撑，只能查询历史最低分参考。",
+      "batches": [
+        ""
+      ],
+      "public_batches": [
+        ""
+      ]
+    },
+    {
+      "province": "广东",
+      "year": 2024,
+      "subject_type": "体育类",
+      "status": "score_only",
+      "label": "仅分数参考",
+      "notice": "该数据集缺少可靠位次支撑，只能查询历史最低分参考。",
+      "batches": [
+        "本科"
+      ],
+      "public_batches": [
+        "本科"
+      ]
+    },
+    {
+      "province": "广东",
+      "year": 2025,
+      "subject_type": "体育类",
+      "status": "open_candidate",
+      "label": "未人工复核",
+      "notice": "该数据集尚未人工复核，仅供历史数据参考。",
+      "batches": [
+        "本科批"
+      ],
+      "public_batches": [
+        "本科批"
+      ]
+    },
+    {
+      "province": "新疆",
+      "year": 2024,
+      "subject_type": "理科",
+      "status": "score_only",
+      "label": "仅分数参考",
+      "notice": "该数据集缺少可靠位次支撑，只能查询历史最低分参考。",
+      "batches": [
+        "专科"
+      ],
+      "public_batches": [
+        "专科"
+      ]
+    },
+    {
+      "province": "江苏",
+      "year": 2020,
+      "subject_type": "文科",
+      "status": "score_only",
+      "label": "仅分数参考",
+      "notice": "该数据集缺少可靠位次支撑，只能查询历史最低分参考。",
+      "batches": [
+        "本科"
+      ],
+      "public_batches": [
+        "本科"
+      ]
+    },
+    {
+      "province": "江苏",
+      "year": 2020,
+      "subject_type": "理科",
+      "status": "score_only",
+      "label": "仅分数参考",
+      "notice": "该数据集缺少可靠位次支撑，只能查询历史最低分参考。",
+      "batches": [
+        "本科"
+      ],
+      "public_batches": [
+        "本科"
+      ]
+    },
+    {
+      "province": "江苏",
+      "year": 2022,
+      "subject_type": "历史类",
+      "status": "score_only",
+      "label": "仅分数参考",
+      "notice": "该数据集缺少可靠位次支撑，只能查询历史最低分参考。",
+      "batches": [
+        "专科批",
+        "本科批"
+      ],
+      "public_batches": [
+        "专科批",
+        "本科批"
+      ]
+    },
+    {
+      "province": "江苏",
+      "year": 2022,
+      "subject_type": "物理类",
+      "status": "score_only",
+      "label": "仅分数参考",
+      "notice": "该数据集缺少可靠位次支撑，只能查询历史最低分参考。",
+      "batches": [
+        "专科批",
+        "本科批"
+      ],
+      "public_batches": [
+        "专科批",
+        "本科批"
+      ]
+    },
+    {
+      "province": "江苏",
+      "year": 2023,
+      "subject_type": "历史类",
+      "status": "score_only",
+      "label": "仅分数参考",
+      "notice": "该数据集缺少可靠位次支撑，只能查询历史最低分参考。",
+      "batches": [
+        "专科批",
+        "本科批"
+      ],
+      "public_batches": [
+        "专科批",
+        "本科批"
+      ]
+    },
+    {
+      "province": "江苏",
+      "year": 2023,
+      "subject_type": "物理类",
+      "status": "score_only",
+      "label": "仅分数参考",
+      "notice": "该数据集缺少可靠位次支撑，只能查询历史最低分参考。",
+      "batches": [
+        "专科批",
+        "本科批"
+      ],
+      "public_batches": [
+        "专科批",
+        "本科批"
+      ]
+    },
+    {
+      "province": "江苏",
+      "year": 2024,
+      "subject_type": "体育类",
+      "status": "score_only",
+      "label": "仅分数参考",
+      "notice": "该数据集缺少可靠位次支撑，只能查询历史最低分参考。",
+      "batches": [
+        "本科提前批"
+      ],
+      "public_batches": [
+        "本科提前批"
+      ]
+    },
+    {
+      "province": "江苏",
+      "year": 2025,
+      "subject_type": "体育类",
+      "status": "score_only",
+      "label": "仅分数参考",
+      "notice": "该数据集缺少可靠位次支撑，只能查询历史最低分参考。",
+      "batches": [
+        "本科提前批"
+      ],
+      "public_batches": [
+        "本科提前批"
+      ]
+    },
+    {
+      "province": "江西",
+      "year": 2024,
+      "subject_type": "体育类",
+      "status": "score_only",
+      "label": "仅分数参考",
+      "notice": "该数据集缺少可靠位次支撑，只能查询历史最低分参考。",
+      "batches": [
+        "本科"
+      ],
+      "public_batches": [
+        "本科"
+      ]
+    },
+    {
+      "province": "江西",
+      "year": 2024,
+      "subject_type": "历史类",
+      "status": "score_only",
+      "label": "仅分数参考",
+      "notice": "该数据集缺少可靠位次支撑，只能查询历史最低分参考。",
+      "batches": [
+        "专科",
+        "征集志愿",
+        "本科"
+      ],
+      "public_batches": [
+        "专科",
+        "征集志愿",
+        "本科"
+      ]
+    },
+    {
+      "province": "江西",
+      "year": 2025,
+      "subject_type": "体育类",
+      "status": "score_only",
+      "label": "仅分数参考",
+      "notice": "该数据集缺少可靠位次支撑，只能查询历史最低分参考。",
+      "batches": [
+        "本科"
+      ],
+      "public_batches": [
+        "本科"
+      ]
+    },
+    {
+      "province": "江西",
+      "year": 2025,
+      "subject_type": "历史类",
+      "status": "open_warning",
+      "label": "抽检有问题",
+      "notice": "该数据集抽检发现问题，开放仅用于资料查看，不建议直接作为填报依据。",
+      "batches": [
+        "专科",
+        "征集志愿",
+        "本科"
+      ],
+      "public_batches": [
+        "专科",
+        "征集志愿",
+        "本科"
+      ]
+    },
+    {
+      "province": "河北",
+      "year": 2023,
+      "subject_type": "理科",
+      "status": "score_only",
+      "label": "仅分数参考",
+      "notice": "该数据集缺少可靠位次支撑，只能查询历史最低分参考。",
+      "batches": [
+        "专科批"
+      ],
+      "public_batches": [
+        "专科批"
+      ]
+    },
+    {
+      "province": "河北",
+      "year": 2024,
+      "subject_type": "历史类",
+      "status": "score_only",
+      "label": "仅分数参考",
+      "notice": "该数据集缺少可靠位次支撑，只能查询历史最低分参考。",
+      "batches": [
+        "专科",
+        "本科"
+      ],
+      "public_batches": [
+        "专科",
+        "本科"
+      ]
+    },
+    {
+      "province": "河北",
+      "year": 2024,
+      "subject_type": "物理类",
+      "status": "score_only",
+      "label": "仅分数参考",
+      "notice": "该数据集缺少可靠位次支撑，只能查询历史最低分参考。",
+      "batches": [
+        "专科",
+        "本科"
+      ],
+      "public_batches": [
+        "专科",
+        "本科"
+      ]
+    },
+    {
+      "province": "河北",
+      "year": 2024,
+      "subject_type": "理科",
+      "status": "score_only",
+      "label": "仅分数参考",
+      "notice": "该数据集缺少可靠位次支撑，只能查询历史最低分参考。",
+      "batches": [
+        "专科批",
+        "专科提前批",
+        "本科批",
+        "本科提前批"
+      ],
+      "public_batches": [
+        "专科批",
+        "专科提前批",
+        "本科批",
+        "本科提前批"
+      ]
+    },
+    {
+      "province": "河南",
+      "year": 2022,
+      "subject_type": "文科",
+      "status": "score_only",
+      "label": "仅分数参考",
+      "notice": "该数据集缺少可靠位次支撑，只能查询历史最低分参考。",
+      "batches": [
+        "本科一批",
+        "本科二批"
+      ],
+      "public_batches": [
+        "本科一批",
+        "本科二批"
+      ]
+    },
+    {
+      "province": "河南",
+      "year": 2022,
+      "subject_type": "理科",
+      "status": "score_only",
+      "label": "仅分数参考",
+      "notice": "该数据集缺少可靠位次支撑，只能查询历史最低分参考。",
+      "batches": [
+        "本科一批",
+        "本科二批"
+      ],
+      "public_batches": [
+        "本科一批",
+        "本科二批"
+      ]
+    },
+    {
+      "province": "河南",
+      "year": 2026,
+      "subject_type": "理科",
+      "status": "score_only",
+      "label": "仅分数参考",
+      "notice": "该数据集缺少可靠位次支撑，只能查询历史最低分参考。",
+      "batches": [
+        ""
+      ],
+      "public_batches": [
+        ""
+      ]
+    },
+    {
+      "province": "浙江",
+      "year": 2017,
+      "subject_type": "体育类",
+      "status": "score_only",
+      "label": "仅分数参考",
+      "notice": "该数据集缺少可靠位次支撑，只能查询历史最低分参考。",
+      "batches": [
+        ""
+      ],
+      "public_batches": [
+        ""
+      ]
+    },
+    {
+      "province": "浙江",
+      "year": 2018,
+      "subject_type": "体育类",
+      "status": "score_only",
+      "label": "仅分数参考",
+      "notice": "该数据集缺少可靠位次支撑，只能查询历史最低分参考。",
+      "batches": [
+        ""
+      ],
+      "public_batches": [
+        ""
+      ]
+    },
+    {
+      "province": "浙江",
+      "year": 2019,
+      "subject_type": "体育类",
+      "status": "score_only",
+      "label": "仅分数参考",
+      "notice": "该数据集缺少可靠位次支撑，只能查询历史最低分参考。",
+      "batches": [
+        ""
+      ],
+      "public_batches": [
+        ""
+      ]
+    },
+    {
+      "province": "浙江",
+      "year": 2020,
+      "subject_type": "体育类",
+      "status": "score_only",
+      "label": "仅分数参考",
+      "notice": "该数据集缺少可靠位次支撑，只能查询历史最低分参考。",
+      "batches": [
+        ""
+      ],
+      "public_batches": [
+        ""
+      ]
+    },
+    {
+      "province": "浙江",
+      "year": 2022,
+      "subject_type": "体育类",
+      "status": "score_only",
+      "label": "仅分数参考",
+      "notice": "该数据集缺少可靠位次支撑，只能查询历史最低分参考。",
+      "batches": [
+        ""
+      ],
+      "public_batches": [
+        ""
+      ]
+    },
+    {
+      "province": "浙江",
+      "year": 2024,
+      "subject_type": "体育类",
+      "status": "score_only",
+      "label": "仅分数参考",
+      "notice": "该数据集缺少可靠位次支撑，只能查询历史最低分参考。",
+      "batches": [
+        ""
+      ],
+      "public_batches": [
+        ""
+      ]
+    },
+    {
+      "province": "浙江",
+      "year": 2025,
+      "subject_type": "体育类",
+      "status": "score_only",
+      "label": "仅分数参考",
+      "notice": "该数据集缺少可靠位次支撑，只能查询历史最低分参考。",
+      "batches": [
+        ""
+      ],
+      "public_batches": [
+        ""
+      ]
+    },
+    {
+      "province": "海南",
+      "year": 2025,
+      "subject_type": "体育类",
+      "status": "score_only",
+      "label": "仅分数参考",
+      "notice": "该数据集缺少可靠位次支撑，只能查询历史最低分参考。",
+      "batches": [
+        "本科提前批"
+      ],
+      "public_batches": [
+        "本科提前批"
+      ]
+    },
+    {
+      "province": "湖南",
+      "year": 2024,
+      "subject_type": "体育类",
+      "status": "score_only",
+      "label": "仅分数参考",
+      "notice": "该数据集缺少可靠位次支撑，只能查询历史最低分参考。",
+      "batches": [
+        "本科批",
+        "本科提前批",
+        "高职专科批"
+      ],
+      "public_batches": [
+        "本科批",
+        "本科提前批",
+        "高职专科批"
+      ]
+    },
+    {
+      "province": "湖南",
+      "year": 2025,
+      "subject_type": "体育类",
+      "status": "score_only",
+      "label": "仅分数参考",
+      "notice": "该数据集缺少可靠位次支撑，只能查询历史最低分参考。",
+      "batches": [
+        "本科批"
+      ],
+      "public_batches": [
+        "本科批"
+      ]
+    },
+    {
+      "province": "甘肃",
+      "year": 2024,
+      "subject_type": "历史类",
+      "status": "score_only",
+      "label": "仅分数参考",
+      "notice": "该数据集缺少可靠位次支撑，只能查询历史最低分参考。",
+      "batches": [
+        "平行志愿",
+        "本科批"
+      ],
+      "public_batches": [
+        "平行志愿",
+        "本科批"
+      ]
+    },
+    {
+      "province": "甘肃",
+      "year": 2024,
+      "subject_type": "物理类",
+      "status": "score_only",
+      "label": "仅分数参考",
+      "notice": "该数据集缺少可靠位次支撑，只能查询历史最低分参考。",
+      "batches": [
+        "本科批"
+      ],
+      "public_batches": [
+        "本科批"
+      ]
+    },
+    {
+      "province": "福建",
+      "year": 2023,
+      "subject_type": "历史类",
+      "status": "open_verified",
+      "label": "已抽检通过",
+      "notice": "该数据集已通过初步抽检，但仍不构成录取承诺。",
+      "batches": [
+        "专科批",
+        "本科批"
+      ],
+      "public_batches": [
+        "专科批",
+        "本科批"
+      ]
+    },
+    {
+      "province": "福建",
+      "year": 2023,
+      "subject_type": "物理类",
+      "status": "open_candidate",
+      "label": "未人工复核",
+      "notice": "该数据集尚未人工复核，仅供历史数据参考。",
+      "batches": [
+        "专科批",
+        "本科批"
+      ],
+      "public_batches": [
+        "专科批",
+        "本科批"
+      ]
+    },
+    {
+      "province": "贵州",
+      "year": 2024,
+      "subject_type": "体育类",
+      "status": "score_only",
+      "label": "仅分数参考",
+      "notice": "该数据集缺少可靠位次支撑，只能查询历史最低分参考。",
+      "batches": [
+        "本科批"
+      ],
+      "public_batches": [
+        "本科批"
+      ]
+    },
+    {
+      "province": "贵州",
+      "year": 2025,
+      "subject_type": "体育类",
+      "status": "score_only",
+      "label": "仅分数参考",
+      "notice": "该数据集缺少可靠位次支撑，只能查询历史最低分参考。",
+      "batches": [
+        "专科",
+        "本科批"
+      ],
+      "public_batches": [
+        "专科",
+        "本科批"
+      ]
+    },
+    {
+      "province": "辽宁",
+      "year": 2024,
+      "subject_type": "历史类",
+      "status": "score_only",
+      "label": "仅分数参考",
+      "notice": "该数据集缺少可靠位次支撑，只能查询历史最低分参考。",
+      "batches": [
+        "专科",
+        "本科"
+      ],
+      "public_batches": [
+        "专科",
+        "本科"
+      ]
+    },
+    {
+      "province": "辽宁",
+      "year": 2024,
+      "subject_type": "物理类",
+      "status": "score_only",
+      "label": "仅分数参考",
+      "notice": "该数据集缺少可靠位次支撑，只能查询历史最低分参考。",
+      "batches": [
+        "专科",
+        "本科"
+      ],
+      "public_batches": [
+        "专科",
+        "本科"
+      ]
+    },
+    {
+      "province": "辽宁",
+      "year": 2025,
+      "subject_type": "体育类",
+      "status": "score_only",
+      "label": "仅分数参考",
+      "notice": "该数据集缺少可靠位次支撑，只能查询历史最低分参考。",
+      "batches": [
+        "本科批"
+      ],
+      "public_batches": [
+        "本科批"
+      ]
+    },
+    {
+      "province": "重庆",
+      "year": 2024,
+      "subject_type": "体育类",
+      "status": "score_only",
+      "label": "仅分数参考",
+      "notice": "该数据集缺少可靠位次支撑，只能查询历史最低分参考。",
+      "batches": [
+        "本科批"
+      ],
+      "public_batches": [
+        "本科批"
+      ]
+    },
+    {
+      "province": "重庆",
+      "year": 2024,
+      "subject_type": "历史类",
+      "status": "score_only",
+      "label": "仅分数参考",
+      "notice": "该数据集缺少可靠位次支撑，只能查询历史最低分参考。",
+      "batches": [
+        "专科",
+        "本科"
+      ],
+      "public_batches": [
+        "专科",
+        "本科"
+      ]
+    },
+    {
+      "province": "重庆",
+      "year": 2024,
+      "subject_type": "物理类",
+      "status": "score_only",
+      "label": "仅分数参考",
+      "notice": "该数据集缺少可靠位次支撑，只能查询历史最低分参考。",
+      "batches": [
+        "专科",
+        "本科"
+      ],
+      "public_batches": [
+        "专科",
+        "本科"
+      ]
+    },
+    {
+      "province": "黑龙江",
+      "year": 2024,
+      "subject_type": "历史类",
+      "status": "score_only",
+      "label": "仅分数参考",
+      "notice": "该数据集缺少可靠位次支撑，只能查询历史最低分参考。",
+      "batches": [
+        "平行志愿",
+        "普通本科批"
+      ],
+      "public_batches": [
+        "平行志愿",
+        "普通本科批"
+      ]
+    },
+    {
+      "province": "黑龙江",
+      "year": 2024,
+      "subject_type": "物理类",
+      "status": "score_only",
+      "label": "仅分数参考",
+      "notice": "该数据集缺少可靠位次支撑，只能查询历史最低分参考。",
+      "batches": [
+        "平行志愿",
+        "普通本科批"
+      ],
+      "public_batches": [
+        "平行志愿",
+        "普通本科批"
+      ]
+    }
+  ]
+}
