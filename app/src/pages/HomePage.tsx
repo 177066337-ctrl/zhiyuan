@@ -16,8 +16,13 @@ export function HomePage() {
   const majorsState = useMajors();
   const [scoreLookupIndex, setScoreLookupIndex] = useState<ScoreLookupIndex | null>(null);
 
+  const schools = schoolsState.data;
+  const majors = majorsState.data;
+  const scoreLookupDatasets = scoreLookupIndex?.datasets ?? [];
+
   useEffect(() => {
     let active = true;
+
     fetch(scoreLookupUrl("data/score-lookup/index.json"), { cache: "no-store" })
       .then(async (response) => {
         if (!response.ok) {
@@ -41,23 +46,6 @@ export function HomePage() {
     };
   }, []);
 
-  if (schoolsState.loading || majorsState.loading) {
-    return <LoadingState />;
-  }
-
-  if (schoolsState.error || majorsState.error) {
-    return (
-      <EmptyState
-        title="数据加载失败"
-        description={schoolsState.error ?? majorsState.error ?? "请稍后重试。"}
-      />
-    );
-  }
-
-  const schools = schoolsState.data;
-  const majors = majorsState.data;
-  const scoreLookupDatasets = scoreLookupIndex?.datasets ?? [];
-
   const qualityCounts = useMemo(() => {
     const counts = {
       verified: 0,
@@ -65,6 +53,7 @@ export function HomePage() {
       candidate: 0,
       scoreOnly: 0,
     };
+
     for (const item of scoreLookupDatasets) {
       if (!item.is_public) {
         continue;
@@ -79,6 +68,7 @@ export function HomePage() {
         counts.scoreOnly += 1;
       }
     }
+
     return counts;
   }, [scoreLookupDatasets]);
 
@@ -134,6 +124,19 @@ export function HomePage() {
     },
   ];
 
+  if (schoolsState.loading || majorsState.loading) {
+    return <LoadingState />;
+  }
+
+  if (schoolsState.error || majorsState.error) {
+    return (
+      <EmptyState
+        title="数据加载失败"
+        description={schoolsState.error ?? majorsState.error ?? "请稍后重试。"}
+      />
+    );
+  }
+
   return (
     <div className="space-y-6">
       <section className="rounded-[2rem] bg-gradient-to-br from-brand-700 via-brand-600 to-emerald-600 px-6 py-8 text-white shadow-soft">
@@ -169,7 +172,7 @@ export function HomePage() {
         <div>
           <h2 className="text-lg font-semibold text-slate-900">数据概览</h2>
           <p className="text-sm text-slate-500">
-            首屏只加载基础查询数据和候选索引，不会默认拉取全国 admissions 大分片。
+            首页只加载基础查询数据和候选索引，不会默认拉取全国 admissions 大分片。
           </p>
         </div>
         <div className="mt-4 grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
